@@ -1,0 +1,51 @@
+.slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{top:0;left:0;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-initialized .slick-slide,.slick-slide img{display:block}.slick-arrow.slick-hidden,.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+
+
+
+.sajib-slider-single-slide-item.slick-slide {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    position: relative;
+}
+
+.sajib-slider-content {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 5%;
+    bottom: 0;
+    background-color: #0000004a;
+    color: #fff;
+}
+
+
+.sajib-slider-content h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.sajib button.slick-next.slick-arrow {
+    position: absolute;
+}
+
+.sajib-slider .slick-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: tan;
+    margin-top: -20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.sajib-slider .slick-arrow[aria-label="Next"] {
+    left: auto;
+    right: 0;
+}
